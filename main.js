@@ -87,13 +87,7 @@ function addModalCloseHandler(){
       $(".modal").modal("hide");
 	})
 }
-// $(function() {
-//     $('figcaption').on('click', function() {
-//
-//         alert("hit");
-//         $('#imagemodal').modal('show');
-//     });
-// });
+
 function displayImage(){
 
      var imgsrc=$(this).attr("style");
